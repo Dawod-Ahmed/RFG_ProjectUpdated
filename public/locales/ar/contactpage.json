@@ -1,0 +1,21 @@
+{
+    "contactpage":{
+        "Title":"اتصل بنا",
+        "Address":"شون انفستمنتز لميتد -مجمع دبي للستثمار الولى",
+        "contact form":{
+            "Sub Heading":"",
+            "Heading":"طلب عرض أسعار",
+            "Name":"اسم",
+            "Email":"البريد الإلكتروني",
+            "Phone Number":"رقم الهاتف",
+            "Message":"رسالة",
+            "Select Group":{
+                "Selected":"نوع الخدمة",
+                "Freight Services":"خدمات الشحن",
+                "Custom Clearance":"التخليص الجمركي",
+                "Warehousing":"التخزين",
+                "Other Services":"خدمات أخرى"
+            }
+        }
+    }
+}

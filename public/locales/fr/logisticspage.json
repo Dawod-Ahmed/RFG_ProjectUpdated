@@ -1,0 +1,20 @@
+{
+    "logisticspage":{
+        "Title":"Logistique automobile ",
+        "Sections":{
+            "Automotive Logistics":{
+                "Heading":"Logistique automobile ",
+                "Desc":"Nous fournissons une solution logistique spéciale et fiable à nos clients du secteur automobile, ce qui constitue l'une de nos principales compétences"
+            },
+            "Offer services":{
+                "Heading":"Nous prenons en charge toute la gamme des tâches de transport liées à la logistique, y compris :",
+                "Points":{
+                    "First":"Transport de voitures sur remorques (Nous proposons le transport terrestre de voitures vers l'Arabie Saoudite, le Koweït, le Bahreïn, le Qatar, Oman, la Jordanie, l'Égypte, etc. Une remorque de transport multi-voitures peut contenir jusqu'à huit voitures. Transport de conteneurs depuis et vers tous les ports des UAE.",
+                    "Second":"Distribution locale de pièces de rechange et de produits connexes par le biais d'enlèvements avec dédouanement.",
+                    "Third":"Expédition de fret.",
+                    "Forth":"Les véhicules individuels peuvent également être transportés sur des transporteurs de véhicules individuels connus sous le nom de camions de récupération selon les spécifications du client (air et mer)."
+                }
+            }
+        }
+    }
+}

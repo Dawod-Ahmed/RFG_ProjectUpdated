@@ -1,0 +1,20 @@
+{
+    "logisticspage":{
+        "Title":"Automotive Logistics",
+        "Sections":{
+            "Automotive Logistics":{
+                "Heading":"Automotive Logistics",
+                "Desc":"We provide a special, dependable logistics solution to our automotive clients, which is one of our main competences."
+            },
+            "Offer services":{
+                "Heading":"We handle the whole range of logistics-related transportation tasks, including:",
+                "Points":{
+                    "First":"Car Transportation on Trailers (We offer land transportation of automobiles to Saudi Arabia, Kuwait, Bahrain, Qatar, Oman, Jordan, Egypt, etc. A Multi-Car Carrier Trailer has a capacity of up to eight cars.Container transportation from & to all UAE ports.",
+                    "Second":"Local distribution of spare parts and allied products through pickups with customs clearance.",
+                    "Third":"Freight forwarding.",
+                    "Forth":"Single vehicles can also be carried on single vehicle carriers known as Recovery trucks as per customer specifications (Air and Ocean)."
+                }
+            }
+        }
+    }
+}

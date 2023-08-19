@@ -1,0 +1,1162 @@
+@import "./variables.scss";
+// ------------  Mixins ---------------
+
+@function weight($weight-name) {
+  @return map-get($font-weight, $weight-name);
+}
+
+@mixin firstGeneralHeading() {
+  font-size: 20px;
+  color: $first-gs-Heading-color;
+  font-weight: weight(bold);
+
+  @include tablet() {
+    font-size: 16px;
+  }
+
+  @include mobile() {
+    font-size: 13px;
+  }
+}
+
+@mixin secondGeneralHeading() {
+  font-size: 40px;
+  color: $second-gs-Heading-color;
+  font-weight: weight(bold);
+
+  @include tablet() {
+    font-size: 36px;
+  }
+
+  @include mobile() {
+    font-size: 32px;
+  }
+}
+
+@mixin thirdGeneralHeading() {
+  font-size: 3rem;
+  color: $second-gs-Heading-color;
+  font-weight: weight(medium);
+
+  @include tablet() {
+    font-size: 3rem;
+  }
+
+  @include mobile() {
+    font-size: 2rem;
+  }
+}
+
+@mixin menuLinks {
+  @include VerticalPadding(0.3rem, 0.3rem);
+  @include HorizontalPadding(18px, 18px);
+  @include HorizontalMargin(30px, 0px);
+  font-size: 22px;
+  font-weight: weight(medium);
+  line-height: 33px;
+  text-transform: uppercase;
+  color: $primary-color;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 0;
+  border-radius: 7px;
+  transition: all 0.4s ease;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.active {
+    color: $white-color;
+    background-color: $primary-color;
+    transition: all 0.4s ease;
+  }
+
+  @include tablet() {
+    font-size: 25px;
+    font-weight: weight(medium);
+    line-height: 38px;
+    margin: 0 auto 70px;
+    @include VerticalPadding(0.5rem, 0.5rem);
+    @include HorizontalPadding(1rem, 1rem);
+    width: fit-content;
+    color: #0000009e;
+
+    &:last-child {
+      margin-right: auto;
+    }
+
+    &.active {
+      font-weight: weight(semiBold);
+    }
+  }
+
+  @include mobile() {
+    font-size: 21px;
+    line-height: 31px;
+    margin-bottom: 24px;
+  }
+}
+
+@mixin carouselHeading() {
+  font-size: 50px;
+  font-weight: weight(bold);
+  color: $white-color;
+  line-height: 65px;
+
+  @include tablet {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  @include mobile {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+
+@mixin carouselSubHeading() {
+  font-size: 22px;
+  font-weight: weight(regular);
+  color: $white-color;
+  line-height: 33px;
+  margin-top: 20px;
+
+  @include tablet {
+    font-size: 20px;
+    color: #e1dcdc;
+    line-height: 44px;
+    margin-top: 28px;
+  }
+
+  @include mobile {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 16px;
+  }
+}
+
+@mixin firstGSRegularText() {
+  font-size: 18px;
+  color: $first-gs-text-color;
+  font-weight: weight(normal);
+
+  @include mobile() {
+    font-size: 16px;
+  }
+}
+
+// @mixin secondGSRegularText() {
+//   font-size: 2.5rem;
+//   color: $general-normalSize-text-color;
+//   font-weight: weight(medium);
+//   font-family: "Poppins", sans-serif;
+
+//   @include desktop() {
+//     font-size: 2.265rem;
+//   }
+
+//   @include laptop() {
+//   }
+//   @include tablet() {
+//   }
+//   @include largeWidthSizeMobiles() {
+//   }
+//   @include mobile() {
+//   }
+// }
+
+@mixin secondGSRegularText() {
+  font-size: 1.8rem;
+  color: $second-gs-text-color;
+  font-weight: weight(light);
+  font-family: "Poppins", sans-serif;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include mobile() {
+    font-size: 1.8rem;
+  }
+}
+
+@mixin sectionHorizontalSpace() {
+  max-width: 2000px;
+  margin: 0 auto;
+  @include HorizontalPadding(37px, 37px);
+
+  @include tablet {
+    @include HorizontalPadding(26px, 26px);
+  }
+
+  @include aboutPageMobileView {
+    @include HorizontalPadding(15px, 15px);
+  }
+}
+
+@mixin flexCenterRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCenterColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexRow($xAxis, $yAxis) {
+  display: flex;
+  justify-content: $xAxis;
+  align-items: $yAxis;
+}
+
+@mixin flexColumn($xAxis, $yAxis) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $xAxis;
+  align-items: $yAxis;
+}
+
+@mixin button($fontSize, $padding) {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+  border-color: transparent;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+  font-size: $fontSize;
+  font-weight: map-get($font-weight, medium);
+  border-radius: 10px;
+  color: $white-color;
+  padding: $padding;
+  transition-duration: 0.2s;
+
+  &:hover {
+    box-shadow: 0px 3px 8px rgb(0 0 0 / 30%);
+    transition-duration: 0.3s;
+  }
+}
+
+@mixin input {
+  height: 55px;
+  border-radius: 10px;
+  margin-bottom: 27px;
+  @include VerticalPadding(18px, 18px);
+  @include HorizontalPadding(24px, 24px);
+  border: 1px solid $primary-color;
+  line-height: 84px;
+  font-size: 22px;
+  font-weight: weight(light);
+
+  &::placeholder {
+    color: #a7a7a7;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  @include tablet {
+    height: 38px;
+    margin-bottom: 17px;
+    @include HorizontalPadding(14px, 14px);
+    font-size: 17px;
+  }
+
+  @include mobile {
+    height: 29px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+}
+
+@mixin select {
+  height: 55px;
+  border-radius: 10px;
+  margin-bottom: 27px;
+  @include VerticalPadding(0px, 0px);
+  @include HorizontalPadding(24px, 24px);
+  border: 1px solid $primary-color;
+  font-size: 22px;
+  font-weight: weight(light);
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  @include tablet {
+    height: 38px;
+    margin-bottom: 17px;
+    @include HorizontalPadding(14px, 14px);
+    font-size: 17px;
+  }
+
+  @include mobile {
+    height: 40px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+}
+
+@mixin textArea {
+  border-radius: 10px;
+  margin-bottom: 27px;
+  @include VerticalPadding(12px, 12px);
+  @include HorizontalPadding(24px, 24px);
+  border: 1px solid $primary-color;
+  font-size: 22px;
+  font-weight: weight(light);
+  resize: none;
+
+  &::placeholder {
+    color: #a7a7a7;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  @include tablet {
+    margin-bottom: 17px;
+    @include HorizontalPadding(14px, 14px);
+    font-size: 17px;
+  }
+
+  @include mobile {
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+}
+
+@mixin GeneralbackgroundImage($Repeat, $Size, $xAxisPos, $yAxisPos) {
+  background-repeat: $Repeat;
+  background-size: $Size;
+  background-position: $xAxisPos $yAxisPos;
+}
+
+@mixin card {
+  width: 350px;
+  height: 440px;
+  background-color: $cards-background-color;
+  transition-duration: 0.2s;
+
+  &:hover {
+    background-color: $cards-hover-color;
+    color: $white-text;
+  }
+}
+
+@mixin VerticalPadding($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin HorizontalPadding($right, $left) {
+  padding-right: $right;
+  padding-left: $left;
+}
+
+@mixin VerticalMargin($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+@mixin HorizontalMargin($right, $left) {
+  margin-right: $right;
+  margin-left: $left;
+}
+
+@mixin elementSize($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.html {
+  font-size: 10px !important;
+}
+
+// ---------------New About Us Styling----------
+
+@mixin sectionTitle() {
+  font-size: 5rem;
+  color: $second-gs-heading-color;
+  font-weight: weight(semiBold);
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    font-size: 4rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 3rem;
+  }
+
+  @include customSmallBp() {
+  }
+}
+
+@mixin sectionVerticalSpace() {
+  padding-top: 57px;
+  padding-bottom: 57px;
+
+  @include tablet() {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  @include aboutPageMobileView() {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@mixin regularTextAlignCenter() {
+  text-align: start;
+
+  @include desktop() {
+    text-align: start;
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    text-align: center;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+  }
+}
+
+@mixin firstSubHeading() {
+  font-size: 1.6rem;
+  color: $first-sub-heading;
+  font-weight: weight(bold);
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    font-size: 1.4rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.2rem;
+  }
+}
+
+// ------------------
+
+@mixin featuresAlignment() {
+  @include desktop() {
+  }
+
+  @include laptop() {
+    // padding-left: 3rem;
+  }
+
+  @include tablet() {
+    padding: 0;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+  }
+}
+
+// ------------------
+
+@mixin logisticsGapTop() {
+  @include desktop() {
+  }
+
+  @include laptop() {
+    margin-top: 5rem;
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+  }
+
+  // @include customSmallBp() {
+  // }
+}
+
+// ------------------
+
+@mixin footerLogo() {
+  font-size: 6rem;
+  color: $first-gs-heading-color;
+  font-weight: weight(medium);
+  font-family: "Poppins", sans-serif;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    font-size: 3.7rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 2.3rem;
+  }
+}
+
+// ------------------
+
+@mixin footerLogoContent() {
+  font-size: 1.8rem;
+  color: $second-gs-text-color;
+  font-weight: weight(medium);
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  width: 80%;
+
+  @include desktop() {
+    font-size: 1.6rem;
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.5rem;
+    word-wrap: normal;
+    width: 100%;
+  }
+}
+
+// ------------------
+
+@mixin footerLinkHeading() {
+  font-size: 2.1rem;
+  color: $first-gs-heading-color;
+  font-weight: weight(medium);
+  font-family: "Poppins", sans-serif;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    font-size: 2rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.8rem;
+  }
+}
+
+// ------------------
+
+@mixin footerLinks() {
+  font-size: 1.6rem;
+  color: $black-color;
+  font-weight: weight(light);
+  font-family: "Poppins", sans-serif;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.4rem;
+  }
+}
+
+// ------------------
+
+@mixin footerSocials {
+  height: 4rem;
+  width: 4rem;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+// ------------------
+
+@mixin copyrightsHeight {
+  height: 7rem;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    height: 3rem;
+  }
+}
+
+// ------------------
+
+@mixin copyrightsText() {
+  font-size: 2rem;
+  color: $first-gs-text-color;
+  font-weight: weight(medium);
+  font-family: "Poppins", sans-serif;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+    font-size: 2rem;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.2rem;
+  }
+}
+
+// --------Logistics Features----------
+
+@mixin logisticsAllignment {
+  text-align: start !important;
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+    text-align: center;
+  }
+
+  @include tablet() {
+    text-align: center;
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    text-align: center;
+  }
+}
+
+// ------------------
+
+@mixin logisticsImage {
+  // height: 48rem;
+  @include desktop() {
+  }
+
+  @include laptop() {
+    // height: 40rem;
+    // width: 80vw;
+    height: unset;
+    width: 41.66666667%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  @include tablet() {
+    height: 40rem;
+    width: 65vw;
+    // height: 36rem;
+    // width: 80vw;
+  }
+
+  @include largeWidthSizeMobiles() {
+    width: 100vw;
+  }
+
+  @include aboutPageMobileView() {
+    width: 100vw;
+    height: 30rem;
+    background-position: 10%;
+  }
+}
+
+// ------------------
+
+@mixin ctaHeading() {
+  font-size: 3rem;
+  color: $second-gs-heading-color;
+  font-weight: weight(bold);
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+    font-size: 2.2rem;
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 2rem;
+  }
+}
+
+// ------------------
+@mixin RequestQuotebutton() {
+  color: $first-gs-heading-color;
+  font-size: 2.2rem;
+  background-color: $dull-white;
+  font-weight: weight(bold);
+
+  @include desktop() {
+  }
+
+  @include laptop() {
+  }
+
+  @include tablet() {
+  }
+
+  @include largeWidthSizeMobiles() {
+    font-size: 1.8rem;
+  }
+
+  @include aboutPageMobileView() {
+    font-size: 1.5rem;
+  }
+}
+
+// -------------
+
+.headroom-wrapper {
+  position: relative;
+  z-index: 5;
+}
+
+div div div .footer-contactUs-ul {
+  padding-inline-start: 0 !important;
+}
+
+.f-location-icon {
+  inset-inline-start: -6px !important;
+}
+
+//  ----------------Blank BG Div SCSS------------
+//.main{
+//  padding-top: 147px;
+//  @include tablet{
+//
+//    padding-top: 48px;
+//  }
+//}
+
+// BLANK BACKGROUND
+.blank_bg {
+  display: none;
+
+  @include tablet {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: $black-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+    &.show {
+      z-index: 10;
+      opacity: 0.83;
+      visibility: visible;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+// ------------React MultiLIngual Styling----
+
+
+@media screen and (max-width: 370px) {
+  div .Navbar_buttons__Qtddd {
+    margin-inline-end: 1.3rem !important;
+  }
+  .nav-logo{
+    @include elementSize(140px!important,43px!important )
+  }
+  .ReactFlagsSelect-module_selectValue__152eS{
+      
+    @include HorizontalPadding(3px!important,3px!important )
+  }
+
+.ReactFlagsSelect-module_label__27pw9{
+  padding-left: 4px!important;
+}
+
+
+}
+// ----------------------
+
+// ---------------Carousel SCSS----------
+.react-multi-carousel-list {
+  // ARROWS
+  .react-multiple-carousel__arrow {
+    background-color: hsla(0, 0%, 0%, 0.2);
+    z-index: 1;
+    // top: 82%;
+
+    &:hover {
+      background-color: rgb(37 97 29 / 46%);
+    }
+
+    @include mobile {
+      min-width: 33px;
+      min-height: 33px;
+    }
+
+    @include s-mobile {
+      // top: 82%;
+    }
+
+    &.react-multiple-carousel__arrow--left {
+      @include s-mobile {
+        left: calc(30% + 0px);
+        bottom: calc(10% + 0px);
+      }
+    }
+
+    &.react-multiple-carousel__arrow--right {
+      @include s-mobile {
+        right: calc(28% + 0px);
+        bottom: calc(10% + 0px);
+      }
+    }
+  }
+
+  //   DOTS
+  .react-multi-carousel-dot-list {
+    bottom: 30px;
+
+    @include tablet {
+      bottom: 18px;
+    }
+
+    @include s-mobile {
+      bottom: 15px;
+    }
+
+    .react-multi-carousel-dot {
+      button {
+        background-color: $white-color;
+        border-color: $white-color;
+        margin: 0 3px;
+        @include elementSize(20px, 20px);
+
+        @include s-mobile {
+          @include elementSize(17px, 17px);
+        }
+      }
+    }
+
+    .react-multi-carousel-dot--active {
+      button {
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
+// ---------Scroll To TOP CSS Code
+
+div .active-scrollToTop {
+  display: block !important;
+}
+
+.scrollTop-whatsaap-cta-parent {
+  bottom: 15px;
+  right: 10px;
+  z-index: 2;
+}
+
+.whatsappIcon {
+  background-image: url(../../public/static/general/whatsapp.svg);
+  @include elementSize(60px, 60px);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+  position: relative;
+  animation: whatsappCTA 2s infinite ease-in-out;
+}
+
+.scrollBar-Top {
+  cursor: pointer;
+
+  background-image: url(../../public/static/general/scrollTopBtn.svg);
+  @include elementSize(50px, 50px);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 100px;
+}
+
+@keyframes whatsappCTA {
+  0% {
+    top: -15px;
+  }
+
+  25% {
+    top: 0px;
+  }
+
+  50% {
+    top: 0px;
+  }
+
+  100% {
+    top: -15px;
+  }
+}
+
+// ---------
+
+// Services Page Mixins
+@mixin ServicesMainSection() {
+  @include sectionHorizontalSpace;
+  @include sectionVerticalSpace;
+  @include flexRow(flex-start, flex-start);
+
+  @include tablet {
+    @include flexColumn(flex-start, flex-start);
+    @include HorizontalPadding(0px, 0px);
+  }
+}
+
+@mixin tableBodyText() {
+  font-size: 2rem;
+
+  @include mobile() {
+    font-size: 1.5rem;
+  }
+}
+
+.services-link{
+  &:hover .menu-dropdown-parent{
+    display: block;
+  transition-duration: 1s;
+
+  }
+   @include tablet(){
+    text-align: center;
+    &:hover .menu-dropdown-parent{
+      display: none;
+    transition-duration: 1s;
+  
+    }
+  }
+ 
+}
+
+.menu-dropdown-parent{
+  transition-duration: 1s;
+  left: 30px;
+top:38.7px;
+    @include tablet(){
+      transition-duration: 1s;
+  
+      position: fixed;
+      top: 70px;
+      width: 100%;
+      left: 100%;
+  border: 0;
+
+
+}
+
+// &:hover{
+//   display: block;
+// }
+
+  
+}
+.menu-dropdown-link{
+@include HorizontalPadding(0!important,0!important );
+font-size: 19px!important;
+    @include tablet(){
+  margin: 0 auto;
+    padding: 0;
+     font-size: 16px;}
+     .dropdown-item {
+      font-weight: 500!important;
+color:$primary-color;
+     }
+}
+@include tablet(){
+  .openSubmenu{
+    display: block!important;
+    left: 0!important;
+    transition-duration: 1s;
+  
+  }
+
+}
+// .dropdown-arrow{
+//   width: 20px;
+//   height: 20px;
+//   background-image: url(../../public/static/servicesImages/dropdown.png);
+//   background-size: 100% 100%;
+//   background-repeat: no-repeat;
+//   @include tablet(){
+//     background-image: url(../../public/static/servicesImages/right-arrow.png)
+//   }
+//   @include s-mobile(){
+
+//   }
+
+
+
+// }
+.Back-Services-btn{
+  font-size: 18px;
+  font-weight: bold;
+}
+.AE-menu-dropdown-parent{
+  text-align: right;
+
+}
+
+.AE-Back-Services-btn{
+  margin-right: 0px!important;
+
+}
+
+//------------Contact Us Page Styling-----
+
+//------------CTA Styling-----
+
+.cta_parent {
+  @include VerticalPadding(50px, 50px);
+  background-color: #25611d21;
+}
+
+.cta_child {
+  @include flexCenterColumn;
+}
+
+.cta_text {
+  @include secondGSRegularText;
+  color: #707070;
+  &:hover {
+    text-decoration: underline;
+    color: #707070;
+  }
+}
+
+// ------------Form Styling-----
+
+.form-submit-btn {
+  width: 92%;
+  @include s-mobile {
+    width: 100%;
+  }
+}
+
+//------------Map Styling-----
+
+.map_parent {
+  @include elementSize(100%, 410px);
+  @include tablet {
+    @include elementSize(100%, 310px);
+  }
+  @include s-mobile {
+    @include elementSize(100%, 280px);
+  }
+}
+.map {
+  @include elementSize(100%, 100%);
+}

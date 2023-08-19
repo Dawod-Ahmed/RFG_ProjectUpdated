@@ -1,0 +1,82 @@
+@import "./general/variables.scss";
+@import "./general/mixins.scss";
+.html{
+  font-size: 10px!important;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white-color);
+  font-family: $ff-poppins;
+  color: var(--black-color);
+  font-size: 10px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+
+// CONTAINER
+.container {
+  max-width: 100% !important;
+  min-width: 100% !important;
+  padding: 0 !important;
+}
+
+p{
+  white-space:pre-line;
+}

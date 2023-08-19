@@ -1,0 +1,22 @@
+{
+    "airfreightpage":{
+        "Title":"Fret aérien",
+        "Sections":{
+            "Air Freight":{
+                "Heading":"Fret aérien",
+                "Desc":"Nous sommes très satisfaits d'offrir des solutions de fret aérien individualisées et efficaces. Le transport de petits envois et les solutions d'affrètement international font partie de nos services. Nous réalisons efficacement nos services de fret aérien depuis ou vers n'importe quel endroit dans le monde en répondant aux nombreux critères tels que le caractère urgent du client, l'attention particulière portée à la marchandise, etc."
+            },
+            "Offer services":{
+                "Heading":"Nous offrons des services comme :",
+                "Points":{
+                    "First":"Import & Export.",
+                    "Second":"D'aéroport à aéroport.",
+                    "Third":"De porte à porte.",
+                    "Forth":"Solutions de consolidation.",
+                    "Fifth":"Solutions d'affrètement complet ou partiel d'avions et solutions transnationales.",
+                    "Sixth":"Gestion soignée des marchandises périssables et non périssables"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "aboutpage":{
+        "Title":"A PROPOS DE NOUS",
+        "Sections":{
+            "About Us":{
+                "Sub Heading":"Qui sommes-nous ?",
+                "Heading":"A propos de nous",
+                "Desc":"RFG Logistics LLC est une société enregistrée et agréée de services d'emballage et de logistique de fret basée à Dubaï - Émirats arabes unis. Nous sommes en affaires pour fournir des services tels que l'expédition de fret dans la région MENA et l'emballage des marchandises pour le transport, la mise en caisse des marchandises pour le transport et l'emballage des marchandises pour le transport, la consolidation du fret, la destination de préparation des documents commerciaux, le stockage des marchandises avant et après le fret, le conseil en distribution physique et conseil en logistique et autres.\n\nRFG Logistics LLC a été en mesure d'obtenir toutes les licences et tous les permis nécessaires pour opérer dans les Émirats arabes unis et dans tous les pays du CCG (Arabie saoudite, Qatar, Oman, Bahreïn, Jordanie et Koweït). Nous veillerons à respecter les règles et réglementations régissant l'industrie de la logistique.\n\nNous priorisons et adaptons les exigences de nos clients, tous les objectifs seront suivis par nos valeurs et notre éthique professionnelle. Nous veillerons à respecter les normes les plus élevées en répondant précisément et complètement aux besoins de nos clients."
+            },
+            "Our Profile":{
+                "Heading":"Notre profil",
+                "Desc":"En tant que fournisseur de classe mondiale de services et de solutions innovants en matière de logistique et de chaîne d'approvisionnement, RFG Logistics dispose d'un réseau étendu dans tous les pays du CCG. En fournissant des solutions avancées spécifiques aux clients grâce à nos services à valeur ajoutée et à la technologie informatique dans la gestion de la chaîne d'approvisionnement, le réseau de services et les plateformes complètes de RFG Logistics vous permettront de faire tous les meilleurs choix pour votre entreprise.\n\nNos professionnels dévoués et expérimentés vous fournissent toujours des solutions logistiques sur mesure, adaptées à vos besoins particuliers. RFG Logistics s'attache à servir les clients ayant des besoins en matière d'approvisionnement mondial et de la gestion de la chaîne d'approvisionnement, en créant de la valeur grâce à des programmes logistiques internationaux innovants et globaux.\n\nNous sommes également un leader dans la fourniture de services sophistiqués de transport, d'entreposage et de distribution dans la partie continentale des Émirats arabes unis, offrant des solutions 3PL et 4PL professionnelles et efficaces. En tant que société internationale basée dans la région du CCG, RFG Logistics est exceptionnellement bien placée pour servir les clients internationaux et nationaux sur les marchés à la croissance la plus rapide du monde."
+            },
+            "Differentiates":{
+                "Heading":"Ce qui nous rend different",
+                "Mission":{
+                    "Title":"Mission",
+                    "Desc":"Nous transportons les marchandises autorisées par voie terrestre dans les pays du CCG et de la région MENA de manière sécurisée et durable."
+                },
+                "Commitment":{
+                    "Title":"Engagement",
+                    "Desc":"Nous nous engageons à faire notre travail et à livrer votre marchandise toujours à temps."
+                },
+                "Ethics":{
+                    "Title":"Éthique",
+                    "Desc":"RFG Logistics LLC est une société éthique. Nous ne faisons pas de compromis sur la bonne gouvernance."
+                },
+                "Sustainability":{
+                    "Title":"Durabilité",
+                    "Desc":"Notre objectif est d'être respectueux de l'environnement et de la croissance durable en fournissant les meilleurs services."
+                },
+                "Fairness":{
+                    "Title":"Equité",
+                    "Desc":"Nous nous efforçons d'être équitables avec nos employés, nos actionnaires, nos clients et la société."
+                }
+            },
+            "RFG Logistics":{
+                "Sub Heading":"Pourquoi choisir",
+                "Heading":"RFG Logistics",
+                "Points":{
+                    "First":"Livraison dans tous les pays du CCG et les régions MENA.",
+                    "Second":"Nous assurons une sécurité totale.",
+                    "Third":"Service de dédouanement et de conformité.",
+                    "Forth":"Mise à jour quotidienne au client sur la cargaison et la livraison à temps.",
+                    "Fifth":"Amélioration permanente.",
+                    "Sixth":"Offre un service respectueux de l'environnement."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "header":{
+        "Address":"Adresse",
+        "Address Content":"Schon Business Park, DIP - 1 Dubai",
+        "Email":"Envoyez-nous un email",
+        "Phone Number":"Numéro de téléphone",
+        "Request a quote":"Demander un devis",
+        "Navlinks":{
+            "Home":"Accueil",
+            "About":"Propos",
+            "Services":"Services",
+            "Contact":"Contact"
+        }
+
+    },
+    "footer":{
+        "description":"RFG Logistics LLC est enregistrée et en activité pour fournir des services de fret dans la région MENA et dans tous les pays du CCG par air, terre et mer. C'est super !",
+        "Read more":"S'il vous plaît, lisez-en plus sur nous",
+        "UsefulLinks":{
+            "Title":"Liens utiles",  
+            "Home":"Accueil",
+            "About":"A propos de nous",
+            "Services":"Services",
+            "Contact":"Nous contacter"
+        },
+        "Services":{
+          "Title":"Services",  
+          "Back":" ◄ Retour",  
+          "Land Freight":"Fret terrestre",  
+          "Sea Freight":"Fret maritime",  
+          "Air Freight":"Fret aérien",  
+          "Automotive Logistics":"Logistique automobile",  
+          "Warehousing":"Entreposage",  
+          "Customs Clearance":"Dédouanement"  
+        },
+        "Contact":{
+          "Title":"Nous contacter"  
+        },
+        "Address":"Office No. 335/15, Schon Business Park, DIP - 1 Dubai, U.A.E",
+        "CopyRight":"@Copyright 2022 RFGroup LLC, tous droits réservés."
+    },
+    "request quote":{
+        "Heading":"Demander un devis gratuit",
+        "Button Label":"Demander un devis"
+    }
+}

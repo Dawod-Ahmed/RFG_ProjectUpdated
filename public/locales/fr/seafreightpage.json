@@ -1,0 +1,21 @@
+{
+    "seafreightpage":{
+        "Title":"Fret maritime",
+        "Sections":{
+            "Sea Freight":{
+                "Heading":"Fret maritime",
+                "Desc":"Nous proposons une large gamme de services de fret maritime pour répondre aux besoins des clients nationaux et internationaux. Nous avons développé des relations solides avec les compagnies maritimes qui nous permettent de fournir des services à des tarifs abordables avec la plus haute qualité de travail. Nous offrons une large gamme de services et n'imposons aucune limitation quant à la taille ou au poids des articles."
+            },
+            "Our skills":{
+                "Heading":"Nos compétences incluent :",
+                "Points":{
+                    "First":"Manipulation sûre des produits périssables et non périssables.",
+                    "Second":"Services de porte à porte.",
+                    "Third":"Solutions de consolidation.",
+                    "Forth":"Matériaux sensibles.",
+                    "Fifth":"Solutions transnationales."
+                }
+            }
+        }
+    }
+}

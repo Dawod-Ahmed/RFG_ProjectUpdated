@@ -1,0 +1,21 @@
+{
+    "customsclearpage":{
+        "Title":"Dédouanement",
+        "Sections":{
+            "Customs Clearance":{
+                "Heading":"Dédouanement",
+                "Desc":"Nous offrons des capacités de classe mondiale en matière de services de compensation personnalisés. Nos offres de services inégalées garantissent une transparence et une cohérence totales qui permettent d'éviter les retards, les amendes et les pénalités."
+            },
+            "Our capabilities":{
+                "Heading":"Nos compétences comprennent :",
+                "Points":{
+                    "First":"Enregistré auprès du portail électronique des douanes de Dubaï et donc autorisé à déposer des documents douaniers.",
+                    "Second":"Une équipe expérimentée et dévouée s'occupe du dédouanement et des questions connexes.",
+                    "Third":"Politique et approche d'action centrées sur le client grâce à une procédure de travail très efficace.",
+                    "Forth":"Solutions sur mesure et rentables.",
+                    "Fifth":"Documentation complète et système informatisé."
+                }
+            }
+        }
+    }
+}

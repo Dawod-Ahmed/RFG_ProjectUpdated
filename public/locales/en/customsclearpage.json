@@ -1,0 +1,21 @@
+{
+    "customsclearpage":{
+        "Title":"Customs Clearance",
+        "Sections":{
+            "Customs Clearance":{
+                "Heading":"Customs Clearance",
+                "Desc":"We offer world-class capabilities in custom clearing services. Our unparalleled service offerings ensure complete transparency & consistency that enable avoiding delays, fines & penalties."
+            },
+            "Our capabilities":{
+                "Heading":"Our capabilities include:",
+                "Points":{
+                    "First":"Registered with Dubai Customs e-mirsal portal and thus authorized to file customs documents.",
+                    "Second":"Experienced and dedicated team handling customs clearance and related issues.",
+                    "Third":"Customer-centric policy and action approach through the highly efficient working procedure.",
+                    "Forth":"Tailored Cost-effective solutions.",
+                    "Fifth":"Complete documentation and IT-enabled system."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,189 @@
+@import "../general/mixins.scss";
+@import "./variables.scss";
+
+html[dir="rtl"] {
+  .footer__link_item__tel {
+    margin-right: 1rem;
+  }
+  .siteLinks {
+    &::before {
+      transform:rotate(180deg);
+      margin-top: 0px
+      
+    }
+  }
+}
+
+.footer {
+  // @include sectionVerticalSpace;
+  @include sectionHorizontalSpace;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  @include tablet() {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  @include aboutPageMobileView() {}
+
+  .link_heading {
+    padding-top: 2rem;
+  }
+
+  &__menu {
+    padding-inline-start: 18px !important;
+
+    &__contacts {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo {
+    // @include footerLogo;
+margin-top: 1rem;
+margin-bottom: 1.5rem;
+    background-image: url(../../public/static/general/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @include elementSize(190px, 55px);
+
+
+    @include tablet {
+      @include elementSize(160px, 45px);
+      margin-bottom: 2.2rem;
+     
+
+    }
+
+    @include s-mobile {
+      @include elementSize(145px, 40px);
+
+
+    }
+    @media screen and (max-width: 370px) {
+       
+      .footer_footer__logo__Er7RI{
+        @include elementSize(131px!important,40px!important )
+      }
+      
+    }
+  }
+
+  &__logo_content {
+    @include footerLogoContent;
+    margin-bottom: 2rem;
+    a{
+        text-decoration: underline;
+      &:hover{
+        text-decoration: underline;
+        color: #000000;
+    }
+
+  }
+
+  }
+
+
+  &__socials {
+    display: none;
+
+    &__icon {
+      display: inline-block;
+      position: relative;
+      margin-right: 0.8rem;
+      @include footerSocials;
+    }
+  }
+
+  & &__logo_link {
+    @include footerLogoContent;
+    color: $first-gs-heading-color;
+
+    &:hover {
+      text-decoration: underline;
+      color: $first-gs-heading-color;
+
+
+    }
+
+  }
+
+  &__link_heading {
+    @include footerLinkHeading;
+    margin-bottom: 3rem;
+  }
+
+  &__link {
+    margin: 1.5rem 0;
+
+    &_item {
+      text-decoration: none;
+      @include footerLinks;
+      position: relative;
+      bottom: 2.2px;
+
+      &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+
+      }
+
+      &__contact {
+        margin-inline-start: 1rem;
+
+        &__location {
+          margin-inline-start: 0.5rem;
+        }
+      }
+
+      &__contact:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.copyrights {
+  background-color: $primary-color;
+
+  padding: 1.5rem 0;
+  @include copyrightsHeight;
+  @include flexCenterRow;
+
+  h6 {
+    @include copyrightsText;
+    color: $white-color;
+  }
+}
+
+div div div .footer-contactUs-ul {
+  padding-left: 0 !important;
+}
+
+.f-location-icon {
+  left: -15px;
+}
+
+.siteLinks {
+  &::before {
+    content: url("../../public/static/images/chevron-left.png");
+    margin-inline-start: -15px;
+    margin-top: 4px;
+    position: absolute;
+    display: flex;
+    
+  }
+}

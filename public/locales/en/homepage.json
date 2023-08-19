@@ -1,0 +1,52 @@
+{
+    "homepage":{
+        "carousel":{
+            "Read More":"Read more!",
+            "first":{
+                "title":"RFG Land Freight Solution From Pickup to Destination!",
+                "Description":"RFG land freight services deliver door-to-door solution to cross-border travel in the GCC and the Middle East with Full Truckload (FTL) and Less than Truckload (LTL)."
+            },
+            "second":{
+                "title":"RFG  Offer A Wide Range Of Sea Freight Solution!",
+                "Description":"We safely handle both perishable and non-perishable shipments. we offer professional cargo import and export services with cross-country solutions."
+            },
+            "third":{
+                "title":"We  Offer Individualized And Effective Air Freight Solution!",
+                "Description":"We efficiently carry out our air freight services from or to any location in the world by attending to the many criteria such as Customer Urgency, Special attention to the Cargo, etc."
+            }
+        },
+        "services":{
+            "Read More":"Read more",
+            "Sub Heading":"WHAT WE OFFER",
+            "Heading":"Our Core Services",
+            "Land Freight":{
+                "Title":"Land Freight",
+                "Desc":"We Provide transportation inside the GCC and other Middle Eastern Nations, we provide flatbed trailers, box trailers, curtain trailers, reefer trailers, car carrier trailers, and pickups with GPS-equipped to meet the needs of cargo moving inside the UAE."   
+            },
+            "Sea Freight":{
+                "Title":"Sea Freight",
+                "Desc":"We offer a wide range of sea freight services to meet the needs of both domestic and international customers. We offer a wide range of services and do not place limitations on the size or weight of the items."   
+            },
+            "Air Freight":{
+                "Title":"Air Freight",
+                "Desc":"We take great satisfaction in offering individualized and effective air freight solutions. We efficiently carry out our air freight services from our to any location in the world by attending to the many criteria such as customer urgency, special attention to the Cargo, etc"   
+            }
+        },
+        "contact form":{
+            "Sub Heading":"REQUEST A",
+            "Heading":"Free Quote",
+            "Name":"Name",
+            "Email":"Email",
+            "Phone Number":"Phone Number",
+            "Message":"Message",
+            "Select Group":{
+                "Selected":"Service Type",
+                "Freight Services":"Freight Services",
+                "Custom Clearance":"Custom Clearance",
+                "Warehousing":"Warehousing",
+                "Other Services":"Other Services"
+            }
+        }
+
+    }
+}

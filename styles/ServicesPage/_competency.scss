@@ -1,0 +1,29 @@
+.services {
+  &__content {
+    .competencyDetail {
+      @include sectionVerticalSpace;
+
+      @include tablet {
+        @include sectionHorizontalSpace;
+      }
+      .subHeading {
+        @include thirdGeneralHeading;
+      }
+
+      .competency_item {
+        @include firstGSRegularText;
+        margin-top: 1.2rem;
+        color: $first-sub-heading;
+        list-style: none;
+        display: flex;
+        .imageContainer {
+          margin-top: 3px;
+          position: relative;
+          max-width: 2rem;
+          height: auto;
+          margin-inline-end: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.services {
+  &__content {
+    .destinationSection {
+      @include sectionVerticalSpace;
+      padding-bottom: 20px;
+      padding-bottom: 20px !important;
+      @include tablet {
+        @include sectionHorizontalSpace;
+      }
+      .generalHeading {
+        font-size: 2.2rem;
+        font-weight: weight(semiBold);
+        color: $white-color;
+        background: $primary-color;
+        @include VerticalPadding(15px, 15px);
+        text-align: center;
+        @include mobile() {
+          font-size: 2rem;
+        }
+      }
+
+      .tableStyling {
+        * {
+          text-align: center;
+          font-weight: weight(semiBold) !important;
+        }
+        thead {
+          background: #e1dede;
+          th {
+            border: none;
+            @include thirdGeneralHeading;
+          }
+        }
+
+        tbody {
+          background: #f7f7f7;
+
+          td {
+            vertical-align: middle;
+            padding: 10px 0;
+            @include tableBodyText;
+
+            &.imageCell {
+              display: flex;
+              align-items: center;
+              p {
+                width: 70%;
+              }
+              .flagImage {
+                margin-left: 20px;
+                position: relative;
+                max-width: 35px;
+                min-width: 35px;
+                height: 35px;
+                @include mobile() {
+                  margin-left: 10px;
+                  max-width: 25px;
+                  min-width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

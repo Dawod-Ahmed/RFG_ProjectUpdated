@@ -1,0 +1,117 @@
+{
+    "landfreightpage":{
+        "Title":"Land Freight",
+        "Sections":{
+            "Land Freight":{
+                "Heading":"Land Freight",
+                "Desc":"We are equipped to fulfil our customers' demands as we have the industry's experienced and dynamic team members with market insight and local understanding. For transportation inside the GCC and other Middle Eastern Nations, we provide flatbed trailers, box trailers, curtain trailers, reefer trailers, car carrier trailers, and pickups. In addition to working with reliable transport partners, we also run our own modern fleet of trucks and trailers that are GPS-equipped to meet the needs of cargo moving inside the United Arab Emirates."
+            },
+            "Our Competencies":{
+                "Heading":"Among our competencies are:",
+                "Points":{
+                    "First":"Cross-border travel in the GCC and Middle East.",
+                    "Second":"Full Truckload (FTL) and Less Than Truckload (LTL) (Bonded and Non-Bonded Transportation).",
+                    "Third":"Services from Door to Door.",
+                    "Forth":"Temperature- and time-sensitive shipments.",
+                    "Fifth":"Pickup and Delivery Services Nearby (Locally Inside UAE)."
+                }
+            },
+            "Frieght Coverage":{
+                "Heading":"Land Frieght Coverage",
+                "Desc":"Our coverage in the region:",
+                "Countries":{
+                    "First":"Saudi Arabia",
+                    "Second":"Qatar",
+                    "Third":"Kuwait",
+                    "Forth":"Bahrain",
+                    "Fifth":"Oman",
+                    "Sixth":"Yemen",
+                    "Seventh":"Jordan",
+                    "Eighth":"Syria"
+                     
+                }
+            },
+            "Destinations":{
+                "Heading":"GCC/Middle East Destinations",
+                "Head Row":{
+                    "Destination":"Destination",
+                    "City":"City",
+                    "Lead Time":"Lead Time"
+                },
+
+                "Saudi Arabia":{
+                    "Destination":"Saudi Arabia",
+                    "City":"All",
+                    "Lead Time":"2-3"
+                },
+                "First Row":{
+                    "Destination":"Bahrain",
+                    "City":"Manama",
+                    "Lead Time":"4-5"
+                },
+                "Second Row":{
+                    "Destination":"Qatar",
+                    "City":"Doha",
+                    "Lead Time":"4-5"
+                },
+                "Third Row":{
+                    "Destination":"Kuwait",
+                    "City":"Safat",
+                    "Lead Time":"5-6"
+                },
+                "Forth Row":{
+                    "Destination":"Oman",
+                    "City":"Muscat",
+                    "Lead Time":"1-2"
+                },
+                "Fifth Row":{
+                    "Destination":"Yemen",
+                    "City":"Sanaa",
+                    "Lead Time":"8-10"
+                },
+                "Sixth Row":{
+                    "Destination":"Jordan",
+                    "City":"-",
+                    "Lead Time":"7-10"
+                },
+                "Seventh Row":{
+                    "Destination":"Syria",
+                    "City":"-",
+                    "Lead Time":"-"
+                },
+                "Eighth Row":{
+                    "Destination":"Iraq",
+                    "City":"Mosul",
+                    "Lead Time":"14"
+                }
+
+            },
+            "City Destination":{
+                "Head Row":{
+                    "KSA Destination":"KSA Destination",
+                    "Dammam":"Dammam",
+                    "Riyadh":"Riyadh",
+                    "Jeddah":"Jeddah"
+                },
+                "First Row":{
+                    "KSA Destination":"Via Batha Border",
+                    "Dammam":"4-5 days",
+                    "Riyadh":"4-5 days",
+                    "Jeddah":"5-6 days"
+                },
+                "Second Row":{
+                    "KSA Destination":"Via Causeway",
+                    "Dammam":"5-6 days",
+                    "Riyadh":"5-6 days",
+                    "Jeddah":"6-7 days"
+                },
+                "Third Row":{
+                    "KSA Destination":"Via King Fahd Airport",
+                    "Dammam":"3-4 days",
+                    "Riyadh":"3-4 days",
+                    "Jeddah":"5-6 days"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "warehousingpage":{
+        "Title":"Entreposage",
+        "Sections":{
+            "Warehousing":{
+                "Heading":"Entreposage",
+                "Desc":"Nous sommes en mesure d'offrir des solutions d'entreposage partagé et 3PL dans le cadre d'une solution d'entreposage rentable grâce à un réseau de nos partenaires locaux et internationaux. En mettant l'accent sur la propreté et la santé, la sûreté, la sécurité et l'environnement, notre objectif est d'établir une plate-forme permettant aux clients d'avoir un environnement d'entrepôt propre, sûr et sécurisé (HSSE)."
+            },
+            "Our capabilities":{
+                "Heading":"Nos capacités incluent :",
+                "Points":{
+                    "First":"Transport vers et depuis toutes les expositions de véhicules, les courses, les ventes aux enchères, etc. Entreposage sous douane ou non.",
+                    "Second":"Distribution locale de pièces de rechange et de produits connexes par le biais d'enlèvements avec dédouanement.",
+                    "Third":"Entreposage en transit dans les aéroports et les ports maritimes de Dubaï et de Jebel Ali.",
+                    "Forth":"Services à valeur ajoutée tels que l'emballage, l'étiquetage, les codes-barres, la palettisation, etc."
+                }
+            }
+        }
+    }
+}

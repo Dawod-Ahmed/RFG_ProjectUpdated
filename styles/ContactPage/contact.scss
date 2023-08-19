@@ -1,0 +1,106 @@
+@import "../general/variables.scss";
+@import "../general/mixins.scss";
+
+html[dir="rtl"] {
+  .arrow{
+    background-position: left 0.75rem center !important;
+  }
+}
+
+.quotes {
+  @include sectionHorizontalSpace;
+  
+  background-color: transparent;
+  @include GeneralbackgroundImage(no-repeat, cover, center, center);
+  @include VerticalPadding(86px, 73px);
+
+  @include tablet {
+    @include VerticalPadding(55px, 45px);
+  }
+
+  @include mobile {
+    @include VerticalPadding(77px, 68px);
+  }
+
+  .form_holder {
+    
+    background-color: $white-color;
+   
+    @include VerticalPadding(34px, 30px);
+    // @include HorizontalPadding(52px, 52px);
+form{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+    @include tablet {
+      
+      @include VerticalPadding(24px, 20px);
+      // @include HorizontalPadding(32px, 32px);
+      margin: 0 auto;
+    }
+
+    @include mobile {
+     
+      @include VerticalPadding(16px, 16px);
+      // @include HorizontalPadding(26px, 26px);
+    }
+
+    @include s-mobile {
+     
+    }
+
+    @include c-mobile {
+      
+    }
+
+    form {
+      margin-top: 22px;
+
+      @include tablet {
+        margin-top: 17px;
+      }
+
+      @include mobile {
+        margin-top: 13px;
+      }
+
+      input {
+        @include input;
+      }
+
+      select {
+        @include select;
+        width:42.1%;
+         
+      
+        @include s-mobile {
+           width:100%;
+        }
+
+      }
+
+      textarea {
+        @include textArea;
+        width: 92%;
+          @include s-mobile {
+           width:100%;
+        }
+      }
+
+button {
+  @include button(20px, 0.375rem 1.3rem);
+  margin: 0 auto;
+
+  @include tablet {
+    font-size: 12px;
+  }
+
+  @include mobile {
+    font-size: 9px;
+  }
+}
+    
+    }
+  }
+}

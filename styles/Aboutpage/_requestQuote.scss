@@ -1,0 +1,36 @@
+@import "../general/mixins.scss";
+@import "../general/variables.scss";
+
+.cta {
+  position: relative;
+  top:-10px;
+  background-image: linear-gradient(
+    rgba(37, 97, 29, 0.9),
+    rgba(37, 97, 29, 0.9)
+  );
+  color: $white-color;
+  @include flexCenterColumn;
+  padding: 3rem;
+  &__title {
+    z-index: 2;
+    @include ctaHeading;
+  }
+
+  .btn {
+    z-index: 2;
+    @include RequestQuotebutton;
+      border:unset;
+    border-radius: 1rem;
+    @include VerticalPadding(1rem, 1rem);
+    @include HorizontalPadding(2rem, 2rem);
+    @include VerticalMargin(2rem, 1rem);
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+    &:active {
+      transform: translateY(-1px);
+    }
+  }
+}

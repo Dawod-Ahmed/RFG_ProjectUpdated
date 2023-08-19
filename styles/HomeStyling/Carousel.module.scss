@@ -1,0 +1,90 @@
+@import "../general/variables.scss";
+@import "../general/mixins.scss";
+
+html[dir="rtl"] {
+  .textContainer {
+    direction: rtl;
+  }
+}
+
+.header {
+  max-width: 2000px;
+  margin: 0 auto;
+
+  .carousel_container {
+    ul {
+      li {
+        // CAROUSEL ITEM
+        .c_item {
+          @include flexCenterRow;
+          height: 712px;
+
+          @include tablet {
+            height: 653px;
+          }
+
+          @include mobile {
+            height: 482px;
+          }
+
+          // WRAPPER
+          .ci_wrapper {
+            position: absolute;
+            background: rgb(0 0 0 / 40%);
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+          }
+
+          // TEXT
+          .ci_text {
+            position: relative;
+            z-index: 1;
+
+            max-width: 626px;
+            margin-inline-start: 12rem;
+            text-align: start;
+
+            @include tablet {
+              margin: 0 auto;
+              text-align: center;
+              @include HorizontalPadding(26px, 26px);
+            }
+
+            @include mobile {
+              width: 100%;
+              max-width: 460px;
+              @include HorizontalPadding(15px, 15px);
+              top: -40px;
+            }
+
+            h1 {
+              @include carouselHeading;
+            }
+
+            p {
+              @include carouselSubHeading;
+            }
+
+            button {
+              @include button(20px, 11px 54px);
+              margin-top: 14px;
+
+              @include tablet {
+                font-size: 17px;
+                @include HorizontalPadding(28px, 28px);
+                margin: 27px auto 0;
+              }
+
+              @include mobile {
+                font-size: 11px;
+                @include VerticalPadding(6px, 6px);
+                margin-top: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

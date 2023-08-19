@@ -1,0 +1,21 @@
+{
+    "contactpage":{
+        "Title":"Nous Contacter",
+        "Address":"Office No. 335/15, Schon Business Park, DIP - 1 Dubai",
+        "contact form":{
+            "Sub Heading":"DEMANDER UN",
+            "Heading":"Devis gratuits",
+            "Name":"Nom",
+            "Email":"Courriel",
+            "Phone Number":"Numéro de téléphone",
+            "Message":"Message",
+            "Select Group":{
+                "Selected":"Type de service",
+                "Freight Services":"Services de fret",
+                "Custom Clearance":"Dédouanement sur mesure",
+                "Warehousing":"Entreposage",
+                "Other Services":"Autres services"
+            }
+        }
+    }
+}

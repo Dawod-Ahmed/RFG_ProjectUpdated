@@ -1,0 +1,22 @@
+{
+    "airfreightpage":{
+        "Title":"Air Freight",
+        "Sections":{
+            "Air Freight":{
+                "Heading":"Air Freight",
+                "Desc":"We take great satisfaction in offering individualized and effective air freight solutions. Moving smaller consignments to international charter solutions are among our services. We efficiently carry out our air freight services from or to any location in the world by attending to the many criteria such Customer Urgency, Special attention to the Cargo, etc."
+            },
+            "Offer services":{
+                "Heading":"We offer services like:",
+                "Points":{
+                    "First":"Import & Export.",
+                    "Second":"Airport To Airport.",
+                    "Third":"Door to Door.",
+                    "Forth":"Consolidation Solutions.",
+                    "Fifth":"Full or partial aircraft charter solutions and cross-country solutions.",
+                    "Sixth":"Careful management of perishable and non-perishable cargo."
+                }
+            }
+        }
+    }
+}

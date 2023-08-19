@@ -1,0 +1,21 @@
+{
+    "seafreightpage":{
+        "Title":"Sea Freight",
+        "Sections":{
+            "Sea Freight":{
+                "Heading":"Sea Freight",
+                "Desc":"We offer a wide range of sea freight services to meet the needs of both domestic and international customers. We have developed solid relationships with shipping lines that allow us to provide services at affordable rates with highest quality of job. We offer a wide range of services and do not place limitations on the size or weight of the items."
+            },
+            "Our skills":{
+                "Heading":"Our skills include:",
+                "Points":{
+                    "First":"Safe handling of both perishable and non-perishable.",
+                    "Second":"Door-to-Door services.",
+                    "Third":"Consolidation solutions.",
+                    "Forth":"Sensitive materials.",
+                    "Fifth":"Cross-country solutions."
+                }
+            }
+        }
+    }
+}

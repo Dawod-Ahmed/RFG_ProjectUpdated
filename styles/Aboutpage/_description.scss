@@ -1,0 +1,46 @@
+@import "../general/mixins.scss";
+@import "../general/variables.scss";
+
+.description {
+  position: relative;
+  @include sectionVerticalSpace;
+  @include sectionHorizontalSpace;
+  @include flexCenterColumn;
+  background-image: linear-gradient(
+    rgba(23, 23, 23, 0.8),
+    rgba(23, 23, 23, 0.8)
+  );
+  background-size: fill;
+  object-fit: fill!important;
+  color: #ffffff;
+  h6{
+    z-index: 2;
+  }
+  &__subTitle {
+    z-index: 2;
+    @include firstGeneralHeading;
+
+  }
+
+  &__title {
+      z-index: 2;
+    @include secondGeneralHeading;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+      z-index: 2;
+    @include firstGSRegularText;
+    @include regularTextAlignCenter;
+  color: #ffffff;
+    
+  }
+
+  h6 {
+    @include firstGeneralHeading;
+    color: #ffffff;
+  }
+  img{
+    object-fit: fill!important;
+  }
+}

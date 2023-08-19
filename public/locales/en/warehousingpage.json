@@ -1,0 +1,20 @@
+{
+    "warehousingpage":{
+        "Title":"Warehousing",
+        "Sections":{
+            "Warehousing":{
+                "Heading":"Warehousing",
+                "Desc":"We are able to offer shared warehousing and 3PL solutions as part of a cost-effective warehousing solution thanks to a network of our local and international partners. With a strong focus on cleanliness and Health, Safety, Security, and the Environment, our goal is to establish a platform for clients to have a clean, safe, and secure warehouse environment (HSSE)."
+            },
+            "Our capabilities":{
+                "Heading":"Our capabilities include:",
+                "Points":{
+                    "First":"Transportation to and from all vehicle exhibits, races, auctions, etc.Bonded & Non-Bonded Warehousing.",
+                    "Second":"Local distribution of spare parts and allied products through pickups with customs clearance.",
+                    "Third":"Airport and seaport transit warehousing at Dubai Airports and Jebel Ali Port.",
+                    "Forth":"Value Added Services like Packing, Labeling, Barcoding, Palletizing, etc."
+                }
+            }
+        }
+    }
+}

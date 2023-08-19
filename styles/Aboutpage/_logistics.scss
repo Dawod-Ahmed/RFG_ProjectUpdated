@@ -1,0 +1,57 @@
+@import "../general/mixins.scss";
+@import "../general/variables.scss";
+
+.logistics {
+  @include logisticsGapTop;
+
+  &__image_container {
+    position: relative;
+    padding: 0;
+    @include logisticsImage;
+  }
+
+  .features {
+    @include sectionHorizontalSpace;
+padding-top:30px;
+padding-bottom:40px;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .row2 {
+    @include featuresAlignment;
+    
+  }
+
+  &__list_item {
+    margin-inline-start: 1rem;
+  }
+
+  &__sub {
+    @include firstSubHeading;
+    @include logisticsAllignment;
+  }
+
+  &__heading {
+    @include secondGeneralHeading;
+    @include logisticsAllignment;
+    color: $first-gs-heading-color;
+    margin-top: -1rem;
+  }
+
+  &__qualities {
+    @include firstGSRegularText;
+    color: $first-sub-heading;
+    list-style: none;
+    padding: 1.2rem 0;
+    display: flex;
+    .imageContainer {
+      position: relative;
+      height: 100%;
+      min-width: 25px;
+    }
+  }
+}

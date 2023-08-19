@@ -1,0 +1,48 @@
+.services {
+  &__content {
+    .citiesChart {
+      @include tablet {
+        @include sectionHorizontalSpace;
+      }
+      .tableStyling {
+        * {
+          text-align: center;
+          vertical-align: middle;
+          border: none;
+          padding: 20px 0;
+          padding: 20px 10px;
+          border-left: 2px solid #fff;
+        }
+        th {
+          @include thirdGeneralHeading;
+          color: $white-color;
+          background: $primary-color;
+          @include mobile {
+            font-size: 16px !important;
+          }
+          @include s-mobile {
+            font-size: 1.3rem !important;
+            padding: 20px 5px;
+          }
+        }
+        tbody {
+          tr {
+            background: #f7f7f7;
+            &:nth-child(odd) {
+              background: #24611c1a;
+            }
+          }
+          td {
+            @include tableBodyText;
+            font-weight: weight(semiBold);
+            color: $primary-color;
+            @include s-mobile {
+              font-size: 1.1rem;
+              padding: 20px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

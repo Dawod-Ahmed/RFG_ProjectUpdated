@@ -1,0 +1,139 @@
+@import "../general/variables.scss";
+@import "../general/mixins.scss";
+
+.services {
+  @include sectionHorizontalSpace;
+  background-color: rgb(30 255 0 / 06%);
+  @include VerticalPadding(85px, 60px);
+
+  .services_cards {
+    margin-top: 85px;
+
+    @include mobile {
+      margin-top: 62px;
+    }
+
+    .custom_row {
+      justify-content: center;
+      --bs-gutter-x: 23px;
+      --bs-gutter-y: 0;
+
+      @include tablet {
+        --bs-gutter-x: 58px;
+        --bs-gutter-y: 45px;
+      }
+      @include mobile {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 50px;
+      }
+      .FrCard{
+        height: 610px !important;
+        
+        @include laptop{
+          height: 700px !important;
+        }
+        @media (max-width:1070px) {
+          height: 750px !important;
+        }
+        @media (max-width:1020px) {
+          height: 820px !important;
+        }
+        @include tablet {
+          height: 550px !important;
+        }
+        @include mobile {
+          height: auto !important;
+        }
+
+      }
+      .sc_item {
+        height: 530px;
+        background-color: $white-color;
+        border-radius: 15px;
+        text-align: center;
+        @include VerticalPadding(32px, 32px);
+        @include HorizontalPadding(30px, 30px);
+        box-shadow: 0px 10px 15px rgb(0 0 0 / 16%);
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: translateY(-50px);
+          border-bottom: 8px solid $primary-color;
+          transition: all 0.3s ease;
+
+          @include tablet {
+            transform: translateY(-25px);
+          }
+        }
+
+        @include desktop{
+          height: 650px;
+        }
+
+        @include tablet {
+          height: 460px;
+        }
+        @include mobile {
+          height: auto;
+        }
+
+        // ICON
+        span {
+          @include tablet {
+            @include elementSize(80px !important, 80px !important);
+          }
+
+          @include mobile {
+            @include elementSize(70px !important, 70px !important);
+          }
+        }
+
+        h5 {
+          font-size: 35px;
+          font-weight: weight(bold);
+          line-height: 53px;
+animation: cardsTitle 2.2s infinite ease-in-out;
+          @include tablet {
+            font-size: 26px;
+            line-height: 39px;
+          }
+
+          @include mobile {
+            font-size: 24px;
+            line-height: 35px;
+          }
+        }
+
+        p {
+          @include firstGSRegularText;
+          margin-top: 26px;
+          line-height: 30px;
+
+          @include tablet {
+            margin-top: 13px;
+            line-height: 25px;
+          }
+
+
+          a {
+            margin-left: 5px;
+            color: $primary-color;
+            cursor: pointer;
+
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes cardsTitle {
+  0%   {color: #000;    text-shadow: 10px 8px 13px #000 }
+  25%   {color: $primary-color;    text-shadow: 10px 8px 13px $primary-color }
+  50%   {color: $primary-color;    text-shadow: 10px 8px 13px $primary-color }
+   
+  100% {color: #000;    text-shadow: 10px 8px 13px  #000 }
+}

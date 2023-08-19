@@ -1,0 +1,51 @@
+{
+    "aboutpage":{
+        "Title":"ABOUT US",
+        "Sections":{
+            "About Us":{
+                "Sub Heading":"Who We Are",
+                "Heading":"About Us",
+                "Desc":"RFG Logistics LLC is a registered and licensed Freight Packaging & Logistics Services Company that is based in Dubai - United Arab Emirates. We are in business to provide services such as Freight Forwarding in MENA Region and packing goods for transportation, crating goods for transportation, and wrapping goods for transportation, freight consolidation, trade document preparation destination, storing goods prior to and after freight, physical distribution consulting and logistics consulting and others.\n\nRFG Logistics LLC has been able to secure all relevant licenses and permits to operate throughout the United Arab Emirates and all GCC countries (Saudi Arabia, Qatar, Oman, Bahrain, Jordan, and Kuwait). We will ensure that we abide by the rules and regulations guiding The Logistics industry.\n\nWe prioritize and tailor our client's requirements, all objectives will be followed by our values and professional ethics. We will ensure that we hold ourselves accountable to the highest standards by meeting our client's needs precisely and completely."
+            },
+            "Our Profile":{
+                "Heading":"Our Profile",
+                "Desc":"As a world-class provider of innovative logistics and supply-chain services and solutions, RFG Logistics has an extensive network in all GCC countries. Providing advanced customer-specific solutions through our value-creating services and IT technology in supply-chain management, RFG Logistics' comprehensive service network and platforms will allow you to make all the Right Moves for your business.\n\nOur dedicated and experienced professionals always provide you with tailor-made logistics solutions, customized to your particular needs. RFG Logistics focuses on serving customers with global sourcing and supply-chain-management needs, creating value through innovative end-to-end international logistics programs.\n\nWe are also a leader in providing sophisticated transportation, warehousing, and distribution services in the mainland United Arab Emirates offering professional and efficient 3PL and 4PL solutions. As a global company based in GCC Region, RFG Logistics is exceptionally positioned to serve both international and domestic customers in the world's fastest-growing markets."
+            },
+            "Differentiates":{
+                "Heading":"What Makes Us Different",
+                "Mission":{
+                    "Title":"Mission",
+                    "Desc":"We transport permitted good on land with in GCC and MENA region countries safely and sustainably."
+                },
+                "Commitment":{
+                    "Title":"Commitment",
+                    "Desc":"We are committed to our work and we will deliver your shipment always on time."
+                },
+                "Ethics":{
+                    "Title":"Ethics",
+                    "Desc":"RFG Logistics LLC is an ethical company. We do not compromise on good governance."
+                },
+                "Sustainability":{
+                    "Title":"Sustainability",
+                    "Desc":"Our target is to be environment friendly and sustainable growth by providing the best services."
+                },
+                "Fairness":{
+                    "Title":"Fairness",
+                    "Desc":"We strive to be fair with our employees, shareholders, customers, and society."
+                }
+            },
+            "RFG Logistics":{
+                "Sub Heading":"Why Choose",
+                "Heading":"RFG Logistics",
+                "Points":{
+                    "First":"Deliver in all GCC Countries and MENA Regions.",
+                    "Second":"We ensure complete security.",
+                    "Third":"Clearance and compliance service.",
+                    "Forth":"Daily Update to the client about cargo & delivery on time.",
+                    "Fifth":"Drive Continuous Improvement.",
+                    "Sixth":"Deliver Environmental Friendly Service."
+                }
+            }
+        }
+    }
+}

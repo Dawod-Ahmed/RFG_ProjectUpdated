@@ -1,0 +1,169 @@
+@import "../general/variables.scss";
+@import "../general/mixins.scss";
+
+.special {
+  @include sectionHorizontalSpace;
+  @include VerticalPadding(85px, 0);
+  background-image: url(../../public/static/homeImages/wave_bg.png);
+  @include GeneralbackgroundImage(
+    no-repeat,
+    150% 50%,
+    70%,
+    130%
+  );
+  overflow: hidden;
+
+  @include tablet {
+    background-image: url(../../public/static/homeImages/wave_bg_tablet.png);
+    background-position-x: 24%;
+    background-position-y: 130%;
+  }
+
+  @include mobile {
+    background-position-x: 46%;
+    background-position-y: 130%;
+
+  } @include s-mobile {
+       background-position-x: 46%;
+    background-position-y: 130%;
+   background-size: 300% 50%;
+
+  }
+
+  .s_inner {
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      justify-content: center;
+    }
+
+    .s_img_holder {
+                display: none;
+
+      width: 307px;
+      align-self: end;
+
+      @include tablet {
+        width: 237px;
+      }
+
+      @include mobile {
+      }
+
+      .s_men_img {
+        width: 307px;
+        align-self: end;
+
+        @include tablet {
+          width: 237px;
+        }
+      }
+    }
+
+    .s_content {
+      @include VerticalMargin(92px, 86px);
+//      margin-left: 3.5rem;
+      width: 100%;
+
+      @include tablet {
+        @include VerticalMargin(90px, 70px);
+//        margin-left: 7px;
+      }
+
+      @include mobile {
+        @include VerticalMargin(70px, 54px);
+        margin-left: unset;
+        width: unset;
+      }
+
+      .custom_row {
+        --bs-gutter-x: 113px;
+        --bs-gutter-y: 74px;
+
+        @include tablet{
+          --bs-gutter-x: 34px;
+          --bs-gutter-y: 40px;
+        }
+
+        @include mobile {
+          --bs-gutter-x: 0;
+          --bs-gutter-y: 45px;
+        }
+
+        .sc_item {
+          display: flex;
+          grid-gap: 13px;
+//          max-width: 347px;
+
+          @include mobile {
+            grid-gap: 9px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: unset;
+              padding-left: 20px;
+              padding-right: 20px
+          }
+
+          .sc_icon_holder {
+            @include elementSize(56px, 56px);
+            @include HorizontalPadding(29px, 29px);
+            background-color: $white-color;
+            border-radius: 100%;
+            position: relative;
+            box-shadow: 0 3px 10px rgb(37 97 29 / 16%);
+
+            @include tablet {
+              @include elementSize(45px, 45px);
+              @include VerticalPadding(22px, 22px);
+              @include HorizontalPadding(23px, 23px);
+            }
+
+            .sc_icon {
+              position: absolute;
+              left: 50%;
+              top: 57%;
+              transform: translate(-50%, -50%);
+
+              span {
+                @include tablet {
+                  @include elementSize(24px !important, 24px !important);
+                }
+              }
+            }
+          }
+
+          .sc_text {
+            h6 {
+              color: $black-color;
+              font-size: 22px;
+              font-weight: weight(semiBold);
+
+              @include tablet {
+                font-size: 20px;
+              }
+            }
+
+            p {
+              @include firstGSRegularText;
+              line-height: 20px;
+              margin-top: 8px;
+
+              @include tablet {
+                // font-size: 12px;
+                margin-top: 3px;
+                line-height: 25px;
+              }
+
+              @include mobile{
+                margin-top: 10px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

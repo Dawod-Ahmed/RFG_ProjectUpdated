@@ -1,0 +1,13 @@
+@import "./general/variables.scss";
+@import "./general/mixins.scss";
+
+.heading {
+    text-align: center;
+    h6 {
+      @include firstGeneralHeading;
+    }
+
+    h1 {
+      @include secondGeneralHeading;
+    }
+  }

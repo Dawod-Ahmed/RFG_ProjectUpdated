@@ -1,0 +1,18 @@
+.contact {
+ 
+  .cta_parent {
+     @include VerticalPadding(50px, 50px);
+     background-color:  #2F611D;
+     opacity:0.1;
+
+     .cta_child{
+      @include flexCenterColumn;
+          .cta_text{
+  @include secondGSRegularText;
+color:#707070; 
+}
+       
+     }
+  }
+}
+

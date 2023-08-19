@@ -1,0 +1,29 @@
+@import "../general/mixins.scss";
+@import "../general/variables.scss";
+@import "subNavigation";
+@import "roadFreight";
+@import "competency";
+@import "coverage";
+@import "destinations";
+@import "citiesChart";
+
+.services {
+  &__main {
+    @include ServicesMainSection();
+  }
+  &__sub_navigation {
+    min-width: 271px;
+    @include tablet {
+      min-width: 100%;
+      @include sectionHorizontalSpace;
+    }
+  }
+  &__content {
+      width: 100%;
+    padding-inline-start: 4rem;
+    @include tablet {
+      padding-inline-start: 0rem;
+      @include sectionVerticalSpace;
+      }
+  }
+}

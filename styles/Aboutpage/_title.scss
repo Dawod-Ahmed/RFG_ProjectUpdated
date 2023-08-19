@@ -1,0 +1,34 @@
+@import "../general/mixins.scss";
+@import "../general/variables.scss";
+
+.title {
+  @include sectionHorizontalSpace;
+  @include flexCenterRow;
+  background-image: linear-gradient(
+    rgba(37, 97, 29, 0.7),
+    rgba(37, 97, 29, 0.7)
+  );
+  background-size: cover;
+ 
+
+  color: $first-gs-heading-color;
+  height: 200px;
+  @include tablet() {
+    height: 150px;
+ 
+  }
+@include aboutPageMobileView() {
+  height: 120px;
+  }
+
+  position: relative;
+  &__heading {
+    z-index: 2;
+    @include sectionTitle;
+  }
+  img{
+    object-fit: fill!important;
+  }
+}
+
+ 

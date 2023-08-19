@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+$font-weight: (
+    "extraLight": 200,
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "semiBold": 600,
+    "bold": 700,
+    "extrabold": 800,
+  );
+  
+  $primary-color: #25611D;
+  $white-color: #ffffff;
+  $dull-white: #f6f6f6;
+  $black-color: #000;
+  $grey-color: #888;
+
+  $ff-poppins: 'Poppins', sans-serif;
+  
+  // $first-gs-heading-color: #ffffff;
+  // $second-gs-heading-color: #00da5d;
+  
+  // $theme-bg-color: #00da5d;
+  // $button-g-bg-color: #00da5d;
+  // $button-g-bg-hover-color: #00da5d;
+  
+  $nav-link-color: #ffffff;
+  // $nav-link-hover-color: #00da5d;
+  
+  $first-gs-Heading-color: #a7a7a7;
+  $second-gs-Heading-color: #25611d;
+  
+  $first-gs-heading-color: #25611D;
+  $second-gs-heading-color: #ffffff;
+   
+
+  // $first-gs-text-color: #ffffff;
+  $first-gs-text-color: #0c0c0c;
+  $second-gs-text-color: #000;
+
+  
+  $first-sub-heading : #A7A7A7;
+  
+  // $first-gs-text-color: #000;
+  // $second-gs-text-color: #000;
+  
+  
+  // $second-theme-bg-color:#000024;
+  // $theme-third-bg-color: #020243;
+  
+  // $cards-bg-color: #010139;
+  
+  // $cards-bg-hover-color: #00da5d;
+  
+  
+  
+  // -------------Break Points----------------------
+  // You can use  max breakpoints media queries or but you can use min breakpoints media queries
+  
+  $customLargeDesktop:1920px;
+  $desktop:1399px;
+  $laptop:1199px;
+  $tablet:991px;
+  $largeSizeMobiles:767px;
+  $mobile:575px;
+  $customMobileBp:430px;
+  $customSmallBp : 430px;
+  // $customMobileBp:280px;
+  
+  // OR MIN
+  // $customLargeDesktop:1400px;
+  // $desktop:1200px;
+  // $laptop:992px;
+  // $tablet:768px;
+  // $largeSizeMobiles:576px;
+  // $customMobileBp:450px;
+  // $customMobileBp:280px;
+ 
+ 
+
+  @mixin desktop {
+    @media only screen and (max-width: 1199px) {
+      @content;
+    }
+  }
+  @mixin laptop {
+    @media (max-width: $laptop) {
+      @content;
+    }
+  }
+   
+  @mixin tablet {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  }
+
+  @mixin largeWidthSizeMobiles {
+    @media (max-width: $largeSizeMobiles) {
+      @content;
+    }
+  }
+  
+
+  @mixin mobile {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @mixin  aboutPageMobileView {
+    @media (max-width: $mobile) {
+      @content;
+    }
+  }
+
+
+  @mixin s-mobile {
+    @media only screen and (max-width: 575px) {
+      @content;
+    }
+  }
+
+  @mixin c-mobile {
+    @media only screen and (max-width: 430px) {
+      @content;
+    }
+  }
+
+  @mixin customSmallBp {
+    @media (max-width: $customMobileBp) {
+      @content;
+    }
+  }
+
+  @mixin tablet-min {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+
+  @mixin desktop-min {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+  
+  
+  
+  
+   

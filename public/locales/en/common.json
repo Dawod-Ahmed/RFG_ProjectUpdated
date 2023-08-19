@@ -1,0 +1,46 @@
+{
+    "header":{
+        "Address":"Address",
+        "Address Content":"Schon Business Park, DIP - 1 Dubai",
+        "Email":"Email Us",
+        "Phone Number":"Phone Number",
+        "Request a quote":"Request a Quote",
+        "Navlinks":{
+            "Home":"Home",
+            "About":"About",
+            "Services":"Services",
+            "Contact":"Contact"
+        }
+
+    },
+    "footer":{
+        "description":"RFG Logistics LLC is registered and in business to provide freight forwarding in the MENA region and In all GCC countries through Air, Land, Sea... Sounds great!",
+        "Read more":"Please read more about us.",
+        "UsefulLinks":{
+            "Title":"Useful Links",  
+            "Home":"Home",
+            "About":"About Us",
+            "Services":"Services ",
+            "Contact":"Contact Us"
+        },
+        "Services":{
+          "Title":"Services",  
+          "Back":"◄ Back",  
+          "Land Freight":"Land Freight",  
+          "Sea Freight":"Sea Freight",  
+          "Air Freight":"Air Freight",  
+          "Automotive Logistics":"Automotive Logistics",  
+          "Warehousing":"Warehousing",  
+          "Customs Clearance":"Customs Clearance"  
+        },
+        "Contact":{
+          "Title":"Contact Us"  
+        },
+        "Address":"Office No. 335/15, Schon Business Park, DIP - 1 Dubai, U.A.E",
+        "CopyRight":"@Copyright 2022 RFGroup LLC, All Rights Reserved."
+    },
+    "request quote":{
+        "Heading":"Request a Free Quote",
+        "Button Label":"Request Quote"
+    }
+}

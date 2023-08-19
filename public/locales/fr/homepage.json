@@ -1,0 +1,52 @@
+{
+    "homepage":{
+        "carousel":{
+            "Read More":"Lire la suite!",
+            "first":{
+                "title":"Solution de fret terrestre RFG De l'enlèvement à la réception !",
+                "Description":"Les services de fret terrestre de RFG offrent une solution porte-à-porte pour les voyages transfrontaliers dans le CCG et le Moyen-Orient avec des chargements complets (FTL) et des chargements partiels (LTL)."
+            },
+            "second":{
+                "title":"RFG offre une large gamme de solutions de fret maritime !",
+                "Description":"Nous gérons en toute sécurité les expéditions périssables et non périssables. Nous offrons des services professionnels d'importation et d'exportation de marchandises avec des solutions transfrontalières."
+            },
+            "third":{
+                "title":"Nous offrons des solutions de fret aérien individualisées et efficaces !",
+                "Description":"Nous réalisons efficacement nos services de fret aérien depuis ou vers n'importe quel endroit dans le monde en tenant compte de nombreux critères tels que le caractère urgent du client, l'attention particulière portée à la marchandise, etc."
+            }
+        },
+        "services":{
+            "Read More":"Lire la suite",
+            "Sub Heading":"CE QUE NOUS OFFRONS",
+            "Heading":"Nos services de base",
+            "Land Freight":{
+                "Title":"Fret terrestre",
+                "Desc":"Nous assurons le transport à l'intérieur du CCG et d'autres pays du Moyen-Orient, nous fournissons des remorques à plateau, des remorques à caisse, des remorques à rideau, des remorques frigorifiques, des remorques porte-voitures et des camionnettes équipées de GPS pour répondre aux besoins de transport de marchandises à l'intérieur des EAU."   
+            },
+            "Sea Freight":{
+                "Title":"Fret maritime",
+                "Desc":"Nous proposons une large gamme de services de fret maritime pour répondre aux besoins des clients nationaux et internationaux. Nous proposons un large panel de services et n'imposons aucune limite à la taille ou au poids des articles."   
+            },
+            "Air Freight":{
+                "Title":"Fret aérien",
+                "Desc":"Nous sommes très satisfaits d'offrir des solutions de fret aérien individualisées et efficaces. Nous assurons efficacement nos services de fret aérien depuis notre pays jusqu'à n'importe quel endroit dans le monde en tenant compte de nombreux critères tels que le caractère urgent du client, l'attention particulière portée à la marchandise, etc"   
+            }
+        },
+        "contact form":{
+            "Sub Heading":"DEMANDER UN",
+            "Heading":"Devis gratuits",
+            "Name":"Nom",
+            "Email":"Courriel",
+            "Phone Number":"Numéro de téléphone",
+            "Message":"Message",
+            "Select Group":{
+                "Selected":"Type de service",
+                "Freight Services":"Services de fret",
+                "Custom Clearance":"Dédouanement sur mesure",
+                "Warehousing":"Entreposage",
+                "Other Services":"Autres services"
+            }
+        }
+
+    }
+}

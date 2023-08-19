@@ -1,0 +1,115 @@
+{
+    "landfreightpage":{
+        "Title":"Fret terrestre",
+        "Sections":{
+            "Land Freight":{
+                "Heading":"Fret terrestre",
+                "Desc":"Nous sommes équipés pour répondre aux demandes de nos clients car nous disposons des membres de l'équipe expérimentée et dynamique de l'industrie, avec une connaissance du marché et une compréhension locale. Pour le transport à l'intérieur du CCG et des autres pays du Moyen-Orient, nous fournissons des remorques à plate-forme, des remorques à caisse, des remorques à bâche, des remorques frigorifiques, des remorques porte-voitures et des pick-ups. En plus de travailler avec des partenaires de transport fiables, nous disposons de notre propre réserve de camions et de remorques modernes équipés d'un GPS pour répondre aux besoins des marchandises transportées à l'intérieur des Émirats arabes unis."
+            },
+            "Our Competencies":{
+                "Heading":"Parmi nos compétences figurent :",
+                "Points":{
+                    "First":"Les déplacements transfrontaliers dans le CCG et au Moyen-Orient.",
+                    "Second":"Transport de charges complètes (FTL) et de charges partielles (LTL) (transport cautionné et non cautionné).",
+                    "Third":"Services de porte à porte.",
+                    "Forth":"Expéditions sous température et délais critiques.",
+                    "Fifth":"Services d'enlèvement et de livraison à proximité (localement dans les UAE)."
+                }
+            },
+            "Frieght Coverage":{
+                "Heading":"Couverture du fret terreste",
+                "Desc":"Nous couvrons dans les regions suivantes :",
+                "Countries":{
+                    "First":"Arabie Saoudite",
+                    "Second":"Qatar",
+                    "Third":"Koweït",
+                    "Forth":"Bahrein",
+                    "Fifth":"Oman",
+                    "Sixth":"Yémen",
+                    "Seventh":"Jordan",
+                    "Eighth":"Syrie"
+                }
+            },
+            "Destinations":{
+                "Heading":"Destinations CCG/Moyen-Orient",
+                "Head Row":{
+                    "Destination":"Destination",
+                    "City":"Ville",
+                    "Lead Time":"Délai de livraison"
+                },
+                "Saudi Arabia":{
+                    "Destination":"Arabie Saoudite",
+                    "City":"tout",
+                    "Lead Time":"2-3"
+                },
+                "First Row":{
+                    "Destination":"Bahrein",
+                    "City":"Manama",
+                    "Lead Time":"4-5"
+                },
+                "Second Row":{
+                    "Destination":"Qatar",
+                    "City":"Doha",
+                    "Lead Time":"4-5"
+                },
+                "Third Row":{
+                    "Destination":"Koweït",
+                    "City":"Safat",
+                    "Lead Time":"5-6"
+                },
+                "Forth Row":{
+                    "Destination":"Oman",
+                    "City":"Muscat",
+                    "Lead Time":"1-2"
+                },
+                "Fifth Row":{
+                    "Destination":"Yémen",
+                    "City":"Sanaa",
+                    "Lead Time":"8-10"
+                },
+                "Sixth Row":{
+                    "Destination":"Jordan",
+                    "City":"-",
+                    "Lead Time":"7-10"
+                },
+                "Seventh Row":{
+                    "Destination":"Syrie",
+                    "City":"-",
+                    "Lead Time":"-"
+                },
+                "Eighth Row":{
+                    "Destination":"Irak",
+                    "City":"Mosul",
+                    "Lead Time":"14"
+                }
+
+            },
+            "City Destination":{
+                "Head Row":{
+                    "KSA Destination":"KSA Destination",
+                    "Dammam":"Dammam",
+                    "Riyadh":"Riyadh",
+                    "Jeddah":"Jeddah"
+                },
+                "First Row":{
+                    "KSA Destination":"Via frontière Batha",
+                    "Dammam":"4-5 jours",
+                    "Riyadh":"4-5 jours",
+                    "Jeddah":"5-6 jours"
+                },
+                "Second Row":{
+                    "KSA Destination":"Via Causeway",
+                    "Dammam":"5-6 jours",
+                    "Riyadh":"5-6 jours",
+                    "Jeddah":"6-7 jours"
+                },
+                "Third Row":{
+                    "KSA Destination":"Via l'aéroport King Fahd",
+                    "Dammam":"3-4 jours",
+                    "Riyadh":"3-4 jours",
+                    "Jeddah":"5-6 jours"
+                }
+            }
+        }
+    }
+}
