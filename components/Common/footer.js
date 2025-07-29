@@ -326,7 +326,7 @@ const Footer = () => {
         
         */}
 
-        <a href="https://wa.me/+971586952050?text=Greetings RFG, I need a quote!">
+        <a href="https://wa.me/+971586043338?text=Greetings RFG, I need a quote!">
           <div className="whatsappIcon"></div>
         </a>
         <div
