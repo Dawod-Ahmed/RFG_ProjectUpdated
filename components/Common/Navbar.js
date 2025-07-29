@@ -91,8 +91,8 @@ function Navbar() {
                   </div>
                   {/* <div className={styles.tdl_item}>
                     <h6>{t("header.Phone Number")}</h6>
-                    <a dir="ltr" href="tel:+971 58 695 2050">
-                      +971 58 695 2050
+                    <a dir="ltr" href="tel:+971 58 604 3338">
+                      +971 58 604 3338
                     </a>
                   </div> */}
                 </div>
