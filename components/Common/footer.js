@@ -219,23 +219,7 @@ const Footer = () => {
                 />
 
                 <div>
-              //    <Link href="#">
-                    <a
-                      href="tel:+971 58 695 2050"
-                      dir="ltr"
-                      className={
-                        styles.footer__link_item +
-                        " " +
-                        styles.footer__link_item__contact +
-                        " " +
-                        styles.footer__link_item__tel
-                      }
-                    >
-                      +971 58 695 2050 <span className="text-dark">(Office)</span>
-                    </a>
-                  </Link>
-
-                  <br />
+           
                   <Link href="#">
                     <a
                       href="tel:+971 58 604 3338"
@@ -248,7 +232,7 @@ const Footer = () => {
                         styles.footer__link_item__tel
                       }
                     >
-                      +971 58 604 3338 <span className="text-dark">(Mobile)</span>
+                      +971 58 604 3338 <span className="text-dark">(Office)</span>
                     </a>
                   </Link>
 
