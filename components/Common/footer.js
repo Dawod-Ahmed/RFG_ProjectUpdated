@@ -219,7 +219,7 @@ const Footer = () => {
                 />
 
                 <div>
-                  <Link href="#">
+              //    <Link href="#">
                     <a
                       href="tel:+971 58 695 2050"
                       dir="ltr"
