@@ -50,8 +50,8 @@ function CtaComp() {
             +971 52 211 2402 <span className="text-dark">(Mobile)</span>
             </a>
 
-<a dir="ltr" href="tel:+971 58 604 3338" className="cta_text">
-            +971 58 604 3338 <span className="text-dark">(Mobile)</span>
+<a dir="ltr"  className="cta_text">
+             <span className="text-dark">(Mobile)</span>
             </a>
 
           </div>
