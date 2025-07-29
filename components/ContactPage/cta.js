@@ -40,9 +40,7 @@ function CtaComp() {
               quality={50}
               blurDataURL={"/static/contactImages/phone.png"}
             />
-            <a dir="ltr" href="tel:+971586952050" className="cta_text mt-5">
-              +971 58 695 2050{" "}<span className="text-dark"> (Office)</span>
-            </a>
+           
             <a dir="ltr" href="tel:+971 58 604 3338" className="cta_text">
             +971 58 604 3338 <span className="text-dark">(Mobile)</span>
             </a>
