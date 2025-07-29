@@ -78,8 +78,7 @@ function Navbar() {
                   <div className={styles.tdl_item}>
                     <h6>{t("header.Address")}</h6>
                     <a
-                      href="https://goo.gl/maps/C2yFVDZhhgJ8sHYv7"
-                      target="_blank"
+                      
                     >
                       {t("header.Address Content")}
                     </a>
