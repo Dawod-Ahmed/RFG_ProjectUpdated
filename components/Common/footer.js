@@ -197,7 +197,7 @@ const Footer = () => {
 
                 <Link href="#">
                   <a
-                    href="https://goo.gl/maps/C2yFVDZhhgJ8sHYv7"
+                    href="https://maps.app.goo.gl/8EC4y5P8T4pPX2MB8"
                     target="_blank"
                     className={
                       styles.footer__link_item +
